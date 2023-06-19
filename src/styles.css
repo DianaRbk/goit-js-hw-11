@@ -41,10 +41,10 @@
 .search-form {
   display: flex;
   justify-content: center;
-  position: fixed;
-  top: 0;
+  padding: 10px;
   width: 100%;
   background-color: rgb(227, 145, 224);
+
 }
 .search-form input {
   width: 300px;
@@ -68,14 +68,14 @@
   margin-top: 10px;
   color: #ffffff;
   padding: 10px 15px;
-  letter-spacing: 0.04em;
   cursor: pointer;
   background-color: rgb(68, 37, 67);
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   border: none;
+  display: block;
+  align-self: center;
 }
